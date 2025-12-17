@@ -32,7 +32,7 @@ export default function VideoShowcase() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-light mb-4 bg-gradient-to-r from-[#A1BFFF] via-white to-[#A649D2] bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-light mb-4 bg-[linear-gradient(90deg,_rgba(161,191,255,1)_0%,_rgba(255,255,255,1)_22%,_rgba(166,73,210,1)_100%)] bg-clip-text text-transparent">
             See How We Transform Brands
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
